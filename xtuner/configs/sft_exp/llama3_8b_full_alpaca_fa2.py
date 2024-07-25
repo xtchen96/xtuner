@@ -23,7 +23,7 @@ from mmengine.visualization import Visualizer
 #######################################################################
 # Model
 pretrained_model_name_or_path = 'meta-llama/Meta-Llama-3-8B'
-use_varlen_attn = False
+use_varlen_attn = True
 
 # Data
 alpaca_en_path = 'tatsu-lab/alpaca'

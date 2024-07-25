@@ -74,7 +74,7 @@ model = dict(
         type=AutoModelForCausalLM.from_pretrained,
         pretrained_model_name_or_path=pretrained_model_name_or_path,
         trust_remote_code=True,
-        attn_implementation='sdpa'))
+        attn_implementation='eager'))
 
 #######################################################################
 #                      PART 3  Dataset & Dataloader                   #

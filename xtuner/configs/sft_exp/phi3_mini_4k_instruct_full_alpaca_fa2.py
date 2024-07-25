@@ -23,7 +23,7 @@ from mmengine.visualization import Visualizer
 #######################################################################
 # Model
 pretrained_model_name_or_path = 'microsoft/Phi-3-mini-4k-instruct'
-use_varlen_attn = False
+use_varlen_attn = True
 
 # Data
 alpaca_en_path = 'tatsu-lab/alpaca'
